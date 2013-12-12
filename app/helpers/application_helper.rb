@@ -15,7 +15,7 @@ module ApplicationHelper
   end
   
   def meta_author
-    "K.C. Barrett"
+    "Blake Amacker & K.C. Barrett"
   end
   
   def meta_description
