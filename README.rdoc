@@ -1,11 +1,13 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Ruby on Rails app with Bootstrap 3.0 added manually; not with a gem. 
+Taken from https://github.com/rvangeilswyk/articles/tree/master/using-bootstrap-3-with-rails-4
 
-Things you may want to cover:
+Details:
 
-* Ruby version
+* Ruby version: ruby 2.0.0p247 (2013-06-27 revision 41674) [x86_64-linux]
+* Rails version: Rails 4.0.0  
+* Bootstrap version: 3.0
 
 * System dependencies
 
