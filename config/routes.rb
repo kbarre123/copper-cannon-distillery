@@ -1,4 +1,11 @@
 Bootstrap::Application.routes.draw do
+  
+  get '/about' => 'high_voltage/pages#show', id: 'about'
+  get '/contact' => 'high_voltage/pages#show', id: 'contact'
+  get '/privacy' => 'high_voltage/pages#show', id: 'privacy'
+  get '/terms' => 'high_voltage/pages#show', id: 'terms'
+  get '/home' => 'high_voltage/pages#show', id: 'home'
+  root :to => 'high_voltage/pages#show', id: 'home'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
