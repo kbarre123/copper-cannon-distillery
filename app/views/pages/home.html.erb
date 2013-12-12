@@ -2,13 +2,12 @@
 
 <% provide(:jumbotron, '
   <h1>Copper Cannon Distillery</h1>
-  <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron
-  and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
-  <p><a class="btn btn-primary btn-lg" role="button">Learn more &raquo;</a></p>
+  <p>Come get your motha-fuckin\' swerve on at Copper Cannon Distillery! This ain\' yo momma\'s toilet-wine she be makin\' up
+  in prison, baby; this shit the real deal rightcheer, yaheardme? You think I\'m playin?</p>
+  <p><a class="btn btn-primary btn-lg" role="button">Activate Swerve &raquo;</a></p>
 '.html_safe) %>
 
 <div class="container">
-  <!-- Example row of columns -->
   <div class="row">
     <div class="col-md-4">
       <h2>Past</h2>
@@ -28,5 +27,36 @@
         ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
       <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
     </div>
-  </div>
+  </div><!-- /row -->
+  <hr class="featurette-divider">
+  <div class="row">
+    <div class="col-md-3">
+      <h2>Tours</h2>
+      <p>We offer tours every Friday starting at 4 PM. Special tours can be arranged too; just send us an email from our 
+        <%= link_to "Contact", contact_path %> page!
+      Perfect for elementary school field-trips!</p>
+    </div>
+    <div class="col-md-3">
+      <h2>Group Events</h2>
+      <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, 
+        ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
+      <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+    </div>
+    <div class="col-md-3">
+      <h2>Photo Gallery</h2>
+      <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, 
+        ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
+      <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+    </div>
+    <div class="col-md-3">
+      <h2>Friends</h2>
+      <p>We'd like to thank the following distilleries for guiding us along the way:</p>
+      <ul>
+        <li><a href="http://www.copperfox.biz/index" target="blank">Copper Fox Distillery</a></li>
+        <li><a href="http://www.flaghill.com" target="blank">Flaghill Distillery</a></li>
+        <li><a href="http://www.seahaggdistillery.com" target="blank">Sea Hagg Distillery</a></li>
+        
+      </ul>
+    </div>
+  </div><!-- /row -->
 </div><!-- /container -->
