@@ -15,7 +15,7 @@ module ApplicationHelper
   end
   
   def meta_author
-    "Blake Amacker & K.C. Barrett"
+    "Blake Amacker, K.C. Barrett"
   end
   
   def meta_description
@@ -23,7 +23,7 @@ module ApplicationHelper
   end
   
   def meta_keywords
-    "Copper Cannon Distillery, Chesterfield NH, micro-distillery, rum, boutique distillery"
+    "Copper Cannon Distillery, rum, micro-distillery, boutique distillery, Chesterfield NH"
   end
   
   # Returns full title on a per-page basis. No need to change any of this as page_title & site_name
