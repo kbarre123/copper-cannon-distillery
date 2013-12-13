@@ -13,40 +13,38 @@
       <h2>Past</h2>
       <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, 
         ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
-      <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
     </div>
     <div class="col-md-4">
       <h2>Present</h2>
       <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, 
         ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
-      <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
     </div>
     <div class="col-md-4">
       <h2>Future</h2>
       <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, 
         ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
-      <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-    </div>
+      </div>
   </div><!-- /row -->
   <hr class="featurette-divider">
   <div class="row">
     <div class="col-md-3">
       <h2>Tours</h2>
       <p>We offer tours every Friday starting at 4 PM. Special tours can be arranged too; just send us an email from our 
-        <%= link_to "Contact", contact_path %> page!
-      Perfect for elementary school field-trips!</p>
+        <%= link_to "Contact", contact_path %> page! Perfect for elementary school field-trips!</p>
+      <%= link_to "<button class='btn btn-default' role='button'>View details &raquo;</button>".html_safe, tours_path %>
     </div>
     <div class="col-md-3">
       <h2>Group Events</h2>
       <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, 
         ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
-      <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+      <%= link_to "<button class='btn btn-default' role='button'>View details &raquo;</button>".html_safe, events_path %>
     </div>
     <div class="col-md-3">
       <h2>Photo Gallery</h2>
       <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, 
         ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
-      <%= link_to "<button class='btn btn-default' role='button'><span class='glyphicon glyphicon-camera'></span> Gallery</button>".html_safe, gallery_path %>
+      <%= link_to "<button class='btn btn-default' role='button'><span class='glyphicon glyphicon-camera'>
+        </span> Gallery</button>".html_safe, gallery_path %>
     </div>
     <div class="col-md-3">
       <h2>Friends</h2>
