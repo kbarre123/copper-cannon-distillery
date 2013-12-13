@@ -55,7 +55,8 @@
   <% end %>
   <%= yield %>
   <footer>
-    <hr>
+    <div class="container">
+      <hr>
       <p class="pull-right">
         <%= link_to '<span class="glyphicon-class glyphicon glyphicon-chevron-up"></span> Back to top'.html_safe, '#Top' %>
       </p>
@@ -66,6 +67,7 @@
         &bull;
         <%= link_to "Terms", terms_path %></li>
       </p>
+    </div><!-- /container -->
   </footer>
   </div><!-- /container -->
 
