@@ -10,7 +10,7 @@ module ApplicationHelper
       "http://www.coppercannondistillery.com"
     else
       # Our dev & test URL
-      "http://localhost:3000"
+      "http://copper-cannon-distillery-60280.use1.actionbox.io/"
     end
   end
   
