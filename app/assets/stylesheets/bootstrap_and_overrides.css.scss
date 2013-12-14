@@ -1,5 +1,7 @@
 @import "bootstrap.min";
 @import "bootstrap-theme.min";
+@import "blueimp-gallery-indicator";
+@import "blueimp-gallery.min";
 
 // Move down content because we have a fixed navbar that is 50px tall
 body {
@@ -31,4 +33,9 @@ img {
 // Override for the 'Home' navigation link
 .navbar-brand {
   font-size: inherit;
+}
+
+// Gallery images
+.gallery_img {
+  margin-bottom: 30px;
 }
