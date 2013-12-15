@@ -2,7 +2,7 @@
 
 </br>
 <!-- The Gallery as lightbox dialog, should be a child element of the document body -->
-<div id="blueimp-gallery" class="blueimp-gallery blueimp-gallery-carousel blueimp-gallery-controls">
+<div id="blueimp-gallery" class="blueimp-gallery blueimp-gallery-controls">
   <div class="slides"></div>
   <h3 class="title"></h3>
   <a class="prev">‹</a>
@@ -49,6 +49,40 @@
           </a>
         </div>
       </div><!-- /row -->
+      <div class="row">
+        <div class="col-md-4 gallery_img">
+          <a href="http://lorempixel.com/400/200/cats/7" alt="This is Cat 7" title="Cat 7">
+              <img src="http://lorempixel.com/400/200/cats/7" alt="This is what a cat looks like.">
+          </a>
+        </div>
+        <div class="col-md-4 gallery_img">
+          <a href="http://lorempixel.com/400/200/cats/8" alt="This is Cat 8" title="Cat 8">
+              <img src="http://lorempixel.com/400/200/cats/8" alt="This is what a cat looks like.">
+          </a>
+        </div>
+        <div class="col-md-4 gallery_img">
+          <a href="http://lorempixel.com/400/200/cats/9" alt="This is Cat 9" title="Cat 9">
+              <img src="http://lorempixel.com/400/200/cats/9" alt="This is what a cat looks like.">
+          </a>
+        </div>
+      </div><!-- /row -->
+      <div class="row">
+        <div class="col-md-4 gallery_img">
+          <a href="http://lorempixel.com/400/200/cats/10" alt="This is Cat 10" title="Cat 10">
+              <img src="http://lorempixel.com/400/200/cats/10" alt="This is what a cat looks like.">
+          </a>
+        </div>
+        <div class="col-md-4 gallery_img">
+          <a href="http://lorempixel.com/400/200/cats/1" alt="This is Cat 1" title="Cat 1">
+              <img src="http://lorempixel.com/400/200/cats/1" alt="This is what a cat looks like.">
+          </a>
+        </div>
+        <div class="col-md-4 gallery_img">
+          <a href="http://lorempixel.com/400/200/cats/2" alt="This is Cat 2" title="Cat 2">
+              <img src="http://lorempixel.com/400/200/cats/2" alt="This is what a cat looks like.">
+          </a>
+        </div>
+      </div><!-- /row -->
       <script>
         document.getElementById('links').onclick = function (event) {
             event = event || window.event;
@@ -58,15 +92,6 @@
                 links = this.getElementsByTagName('a');
             blueimp.Gallery(links, options);
         };
-      </script>
-      <script>
-        blueimp.Gallery(
-            document.getElementById('links').getElementsByTagName('a'),
-            {
-                container: '#blueimp-gallery-carousel',
-                carousel: true
-            }
-        );
       </script>
     </div><!-- /links -->
   </div><!-- /column 12-->
