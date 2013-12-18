@@ -32,7 +32,11 @@ group :doc do
   gem 'sdoc', require: false
 end
 
+# Static html page generator
 gem 'high_voltage'
+
+# Set ENV variables the easy way (keeps username/email/passwords safe)
+gem 'figaro'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
