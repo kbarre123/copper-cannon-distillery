@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.0.0'
+gem 'rails', '4.0.1'
 
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
@@ -35,14 +35,16 @@ gem 'figaro'
 gem 'gibbon'
 
 # Use Google Drive spreadsheets for data storage
-gam 'google_drive'
+gem 'google_drive'
 
 # User Rails w/o a database
 gem 'activerecord-tableless'
 
 # Forms made easy
 gem 'simple_form'
-# NEW GEMS FOR MAIL FEATURE ON CONTACT PAGE
+
+gem 'nokogiri', '1.6.0'
+# END -> NEW GEMS FOR MAIL FEATURE ON CONTACT PAGE
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
