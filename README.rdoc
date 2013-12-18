@@ -11,7 +11,7 @@ Details:
 
 * System dependencies
 
-* Configuration
+* Configuration: Nokogiri gem is being difficult. May cause problems down the road.
 
 * Database creation
 
