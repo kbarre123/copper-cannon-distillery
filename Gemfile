@@ -27,6 +27,23 @@ gem 'jbuilder', '~> 1.2'
 # Static html page generator
 gem 'high_voltage'
 
+# NEW GEMS FOR MAIL FEATURE ON CONTACT PAGE
+# Set ENV variables the easy way (keeps username/email/passwords safe)
+gem 'figaro'
+
+# Use MailChimp API
+gem 'gibbon'
+
+# Use Google Drive spreadsheets for data storage
+gam 'google_drive'
+
+# User Rails w/o a database
+gem 'activerecord-tableless'
+
+# Forms made easy
+gem 'simple_form'
+# NEW GEMS FOR MAIL FEATURE ON CONTACT PAGE
+
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false
