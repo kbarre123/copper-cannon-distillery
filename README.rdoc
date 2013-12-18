@@ -6,7 +6,7 @@ Taken from https://github.com/rvangeilswyk/articles/tree/master/using-bootstrap-
 Details:
 
 * Ruby version: ruby 2.0.0p247 (2013-06-27 revision 41674) [x86_64-linux]
-* Rails version: Rails 4.0.0  
+* Rails version: Rails 4.0.1  
 * Bootstrap version: 3.0
 
 * System dependencies
