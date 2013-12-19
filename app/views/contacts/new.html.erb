@@ -1,0 +1,13 @@
+<% provide(:title, 'Contact') %>
+
+<h3>Contact Us</h3>
+<hr>
+<div class="form-horizontal" role="form">
+  <%= simple_form_for @contact, defaults: { html: { class: 'form-group col-sm-10' } } do |form| %>
+    <%= form.error_notification %>
+    <%= form.input :name, label: 'Name', placeholder: 'Your name', autofocus: true %>
+    <%= form.input :email, label: 'Email', placeholder: '<user@domain.com>' %>
+    <%= form.input :content, label: 'Message', placeholder: 'What\'s on your mind?', as: :text %>
+    <%= form.button :submit, value: 'Send', class: 'btn btn-primary col-md-offset-2' %>
+  <% end %>
+</div>

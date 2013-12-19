@@ -23,21 +23,25 @@
   <a href="#Top"></a>
 </head>
 <body>
-  <%= render 'layouts/navigation' %>
-  
-  <% if current_page?(root_path) %>
-    <% if content_for?(:jumbotron) %>
-      <div class="jumbotron">
-        <div class="container">
-          <%= yield :jumbotron %>
+  <header>
+    <%= render 'layouts/navigation' %>
+  </header>
+  <main role="main">
+    <%= render 'layouts/messages' %>
+    <% if current_page?(root_path) %>
+      <% if content_for?(:jumbotron) %>
+        <div class="jumbotron">
+          <div class="container">
+            <%= yield :jumbotron %>
+          </div>
         </div>
-      </div>
+      <% end %>
+    <% else %>
+      <div class="container">
     <% end %>
-  <% else %>
-    <div class="container">
-  <% end %>
-  <%= yield %>
-    <%= render 'layouts/footer' %>
+    <%= yield %>
+  </main>
+  <%= render 'layouts/footer' %>
   </div><!-- /container for page -->
 
 </body>

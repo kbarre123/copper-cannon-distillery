@@ -36,4 +36,14 @@ module ApplicationHelper
     end
   end
   
+  # Use Bootstrap alert stylings
+  def flash_class(level)
+    case level
+      when :info then "alert alert-info"
+      when :success then "alert alert-success"
+      when :warning then "alert alert-warning"
+      when :danger then "alert alert-danger"
+    end        
+  end
+  
 end
