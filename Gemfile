@@ -46,6 +46,9 @@ gem 'simple_form', github: 'zlx/simple_form_bootstrap3'
 gem 'nokogiri', '1.6.0'
 # END -> NEW GEMS FOR MAIL FEATURE ON CONTACT PAGE
 
+# Add twitter API
+gem 'twitter'
+
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false

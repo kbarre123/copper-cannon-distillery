@@ -12,7 +12,7 @@ Bootstrap::Application.routes.draw do
   # Clicking on contacts in nav brings you to /views/contacts/new
   resources :contacts, only: [:new, :create]  
   
-  # Redirect url/home to url
+  # Redirect http://url/home to http://url
   get '/home', to: redirect('/')
   
   # Sets root to /home (but shows the url w/o '/home' per redirect above
