@@ -47,7 +47,7 @@ gem 'nokogiri', '1.6.0'
 # END -> NEW GEMS FOR MAIL FEATURE ON CONTACT PAGE
 
 # Add twitter API
-gem 'twitter'
+# gem 'twitter'
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
