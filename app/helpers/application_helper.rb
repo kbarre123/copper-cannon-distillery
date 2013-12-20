@@ -6,7 +6,8 @@ module ApplicationHelper
 
   def site_url
     if Rails.env.production?
-      # Place production URL in quotes below
+      # Place production URL in quotes below. Will be coppercannondistillery.com once we go live. Also, need to
+      # change segment.io URL on that site and add new key to the script in /app/assets/javascripts/segmentio.js
       "http://copper-cannon-distillery.herokuapp.com/"
     else
       # Our dev & test URL
