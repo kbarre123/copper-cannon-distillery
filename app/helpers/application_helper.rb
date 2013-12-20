@@ -7,7 +7,7 @@ module ApplicationHelper
   def site_url
     if Rails.env.production?
       # Place production URL in quotes below
-      "http://www.coppercannondistillery.com"
+      "http://copper-cannon-distillery.herokuapp.com/"
     else
       # Our dev & test URL
       "http://copper-cannon-distillery-60280.use1.actionbox.io/"
