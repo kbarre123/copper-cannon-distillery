@@ -43,7 +43,6 @@ gem 'activerecord-tableless'
 # Forms made easy
 gem 'simple_form', github: 'zlx/simple_form_bootstrap3'
 
-gem 'nokogiri', '1.6.0'
 # END -> NEW GEMS FOR MAIL FEATURE ON CONTACT PAGE
 
 # Add twitter API

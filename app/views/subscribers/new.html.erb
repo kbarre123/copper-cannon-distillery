@@ -1,0 +1,21 @@
+<% provide(:title, 'Subscribe') %>
+
+<div class="row">
+  <div class="col-md-12">
+    <h1>Subscribe to our newsletter</h1>
+  </div>
+</div>
+<div class="row">
+  <div class="col-md-12">
+    <h3>Keep informed with our monthly newsletter.</h3>
+  </div>
+</div>
+<hr>
+<div class="form-horizontal" role="form">
+  <%= simple_form_for @subscriber, defaults: { html: { class: 'form-group col-sm-10' } } do |form| %>
+    <%= form.error_notification %>
+    <%= form.input :name, label: 'Name', placeholder: 'Your name', autofocus: true %>
+    <%= form.input :email, label: 'Email', placeholder: '<user@domain.com>' %>
+    <%= form.button :submit, value: 'Subscribe', class: 'btn btn-primary col-md-offset-2' %>
+  <% end %>
+</div>

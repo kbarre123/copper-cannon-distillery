@@ -1,5 +1,6 @@
 Bootstrap::Application.routes.draw do
   
+  # ROUTES FOR STATIC PAGES
   get '/about' => 'high_voltage/pages#show', id: 'about'
   get '/events' => 'high_voltage/pages#show', id: 'events'
   get '/press' => 'high_voltage/pages#show', id: 'press'
@@ -9,14 +10,20 @@ Bootstrap::Application.routes.draw do
   get '/terms' => 'high_voltage/pages#show', id: 'terms'
   get '/tours' => 'high_voltage/pages#show', id: 'tours'
   
-  # Clicking on contacts in nav brings you to /views/contacts/new
-  resources :contacts, only: [:new, :create]  
+  # ROUTES FOR MVC PAGES
+  resources :contacts, only: [:new, :create]
+  resources :visitors, only: [:new]
+  resources :subscribers, only: [:new, :create]
   
+  # Set root using MVC instead of static /home page.
+  root to: 'visitors#new'
+  
+  # REDIRECTS
   # Redirect http://url/home to http://url
   get '/home', to: redirect('/')
   
-  # Sets root to /home (but shows the url w/o '/home' per redirect above
-  root :to => 'high_voltage/pages#show', id: 'home'
-
+  #CYA OLD ROUTES
+  # Sets root to /home
+  # root :to => 'high_voltage/pages#show', id: 'home'
   
 end
