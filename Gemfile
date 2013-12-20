@@ -1,10 +1,9 @@
 source 'https://rubygems.org'
 
+ruby '2.0.0'
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.1'
-
-# Use sqlite3 as the database for Active Record
-gem 'sqlite3'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
@@ -42,11 +41,19 @@ gem 'activerecord-tableless'
 
 # Forms made easy
 gem 'simple_form', github: 'zlx/simple_form_bootstrap3'
-
 # END -> NEW GEMS FOR MAIL FEATURE ON CONTACT PAGE
 
-# Add twitter API
-# gem 'twitter'
+group :development do
+  gem 'better_errors'
+  gem 'quiet_assets'
+  gem 'sqlite3'
+end
+
+group :production do
+  gem 'pg'
+  gem 'rails_12factor'
+  gem 'thin'
+end
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
