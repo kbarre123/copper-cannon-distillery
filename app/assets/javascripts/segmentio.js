@@ -11,6 +11,7 @@ analytics.load("66w1mgqvve");
 $(document).on('page:load', function() {
   console.log('page loaded');
   analytics.pageview();
+  // I'm not so sure that these params are right. See /helpers/application_helper.rb
   analytics.trackForm($('#new_visitor'), 'Signed Up');
   analytics.trackForm($('#new_contact'), 'Contact Request');
 })
