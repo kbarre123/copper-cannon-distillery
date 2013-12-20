@@ -10,7 +10,7 @@ class SubscribersController < ApplicationController
     if @subscriber.valid?
       @subscriber.update_spreadsheet
       @subscriber.subscribe
-      flash[:info] = "Thanks #{@subscriber.name} for signing up for our newsletter!"
+      flash[:info] = "#{@subscriber.name}, thanks for subscribing!"
       redirect_to root_path
     else
       render :new
