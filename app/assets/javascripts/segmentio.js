@@ -1,4 +1,4 @@
-<script type="text/javascript">
+
 // Create a queue, but don't obliterate an existing one!
 window.analytics || (window.analytics = []);
 
@@ -52,4 +52,3 @@ window.analytics.load('66w1mgqvve');
 // name or tag the page, edit or move this call to use your own tags.
 /*  */
 window.analytics.page();
-</script>
