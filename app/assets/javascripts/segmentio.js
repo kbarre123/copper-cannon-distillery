@@ -13,10 +13,11 @@ var analytics=analytics||[];
     n.parentNode.insertBefore(t,n)
   };
   analytics.load('66w1mgqvve');
+  // Accomodate turbolinks
   $(document).on('ready page:change', function() {
       console.log('page loaded');
       analytics.page();
-      analytics.trackForm($('#new_visitor'), 'Signed Up');
+      analytics.trackForm($('#new_subscriber'), 'Signed Up');
       analytics.trackForm($('#new_contact'), 'Contact Request');
   }
 )
