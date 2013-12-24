@@ -17,7 +17,7 @@ var analytics=analytics||[];
   $(document).on('ready page:change', function() {
       console.log('page loaded');
       analytics.page();
-      analytics.trackForm($('#new_subscriber'), 'Signed Up');
-      analytics.trackForm($('#new_contact'), 'Contact Request');
+      analytics.trackForm($('#new_subscribers'), 'Signed Up');
+      analytics.trackForm($('#new_contacts'), 'Contact Request');
   }
 )
