@@ -19,5 +19,5 @@ var analytics=analytics||[];
       analytics.page();
       analytics.trackForm($('#new_subscriber'), 'Signed Up');
       analytics.trackForm($('#new_contact'), 'Contact Request');
-  })
+  }
 )
