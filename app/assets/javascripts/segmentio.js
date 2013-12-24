@@ -13,9 +13,9 @@ var analytics=analytics||[];
     n.parentNode.insertBefore(t,n)
   };
   analytics.load('66w1mgqvve');
-  $(document).on('page:load', function() {
+  $(document).on('ready page:change', function() {
       console.log('page loaded');
-      analytics.pageview();
+      analytics.page();
       analytics.trackForm($('#new_visitor'), 'Signed Up');
       analytics.trackForm($('#new_contact'), 'Contact Request');
   }
