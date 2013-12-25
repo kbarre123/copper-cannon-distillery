@@ -6,4 +6,4 @@ $(document).on('ready page:change', function() {
     analytics.page();
     analytics.trackForm($('#new_subscribers'), 'Signed Up');
     analytics.trackForm($('#new_contacts'), 'Contact Request');
-}
+})
