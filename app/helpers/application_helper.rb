@@ -1,7 +1,7 @@
 module ApplicationHelper
   
   def site_name
-    "Copper Cannon Distillery"
+    "Blake's Booze"
   end
 
   def site_url
