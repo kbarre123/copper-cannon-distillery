@@ -20,5 +20,5 @@
 //= require jquery.blueimp-gallery.min
 //= require segmentio
 //= require turbolinks
-//= require_tree .
+
 

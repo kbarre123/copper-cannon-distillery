@@ -19,7 +19,7 @@ var analytics=analytics||[];
   analytics.load('66w1mgqvve');
   // Accomodate turbolinks
   $(document).on('ready page:change', function() {
-      console.log('page loaded');
+      console.log('KCB says page loaded');
       analytics.page();
       analytics.trackForm($('#new_subscribers'), 'Signed Up');
       analytics.trackForm($('#new_contacts'), 'Contact Request');
