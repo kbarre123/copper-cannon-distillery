@@ -1,6 +1,5 @@
-// Downloaded from Copper Cannon RoR app @ 2013.12.24 7:34PM.
-// This script doesn't appear to to loading properly, as I'm not able to see the Real-Time analytics
-// on my Google Analytics page. However, Google Analytics is recording events. This is a CYA file.
+// For some reason, when I preview the site, I see my console.log statement twice. But when I push
+// the site to Heroku, I don't see it at all, which is wrong.
 
 var analytics=analytics||[];
 (
