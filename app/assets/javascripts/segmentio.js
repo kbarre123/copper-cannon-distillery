@@ -1,5 +1,6 @@
+// Downloaded from Copper Cannon RoR app @ 2013.12.24 7:34PM.
 // This script doesn't appear to to loading properly, as I'm not able to see the Real-Time analytics
-// on my Google Analytics page. However, Google Analytics is recording events.
+// on my Google Analytics page. However, Google Analytics is recording events. This is a CYA file.
 
 var analytics=analytics||[];
 (
@@ -18,7 +19,7 @@ var analytics=analytics||[];
   analytics.load('66w1mgqvve');
   // Accomodate turbolinks
   $(document).on('ready page:change', function() {
-      console.log('KCB says page loaded');
+      console.log('page loaded');
       analytics.page();
       analytics.trackForm($('#new_subscribers'), 'Signed Up');
       analytics.trackForm($('#new_contacts'), 'Contact Request');
