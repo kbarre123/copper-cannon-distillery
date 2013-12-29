@@ -17,11 +17,11 @@ body {
 // Override Bootstrap 3's font location
 @font-face {
   font-family: 'Glyphicons Halflings';
-  src: url('vendor/assets/fonts/glyphicons-halflings-regular.eot');
-  src: url('vendor/assets/fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), 
-       url('vendor/assets/fonts/glyphicons-halflings-regular.woff') format('woff'), 
-       url('vendor/assets/fonts/glyphicons-halflings-regular.ttf') format('truetype'), 
-       url('vendor/assets/fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+  src: url('../assets/glyphicons-halflings-regular.eot');
+  src: url('../assets/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), 
+       url('../assets/glyphicons-halflings-regular.woff') format('woff'),
+       url('../assets/glyphicons-halflings-regular.ttf') format('truetype'),
+       url('../assets/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
 }
 
 // Make all images responsive by default
