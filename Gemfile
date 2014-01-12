@@ -43,6 +43,9 @@ gem 'activerecord-tableless'
 gem 'simple_form', github: 'zlx/simple_form_bootstrap3'
 # END -> NEW GEMS FOR MAIL FEATURE ON CONTACT PAGE
 
+# New Relic performance monitoring
+gem 'newrelic_rpm'
+
 group :development do
   gem 'better_errors'
   gem 'quiet_assets'
