@@ -12,8 +12,8 @@ README
 ##### System dependencies #####
 
 ##### Configuration: #####
- * For security purposes, .gitignore contains the file /application.yml. The following environmental variables 
-   are contained therein: 
+ * For security purposes, /app/.gitignore contains the file /application.yml, so it's not tracked by git. The following 
+ environmental variables are contained therein. I've saved a copy on Google Drive if I ever need to clone to a new box. 
   * GMAIL_USERNAME:
   * GMAIL_PASSWORD:
   * MAILCHIMP_API_KEY:
