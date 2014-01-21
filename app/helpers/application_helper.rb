@@ -11,7 +11,7 @@ module ApplicationHelper
       "http://copper-cannon-distillery.herokuapp.com/"
     else
       # Our dev & test URL
-      "http://copper-cannon-distillery-60280.use1.actionbox.io/"
+      "http://rails-box-68991.use1.nitrousbox.com/"
     end
   end
   
