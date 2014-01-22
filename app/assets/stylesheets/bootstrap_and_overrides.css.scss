@@ -14,7 +14,6 @@
 // Move down content because we have a fixed navbar that is 50px tall
 body {
   padding-top: 50px;
-  //padding-bottom: 20px;
 }
 
 // Override Rails' default error calls with Bootstrap 3
@@ -44,8 +43,14 @@ img {
 }
 
 .jumbotron {
-  background: url('IMG_2718_home_banner.JPG');
-  @extend .img-responsive;
+  background: url('IMG_2718_home_banner.JPG') no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  h1 {
+    color: white;
+  }
 }
 
 // Gallery images

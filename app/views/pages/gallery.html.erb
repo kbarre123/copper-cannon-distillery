@@ -17,14 +17,12 @@
     <div id="links">
       <div class="row">
         <div class="col-md-4 gallery_img">
-          <a href="http://lorempixel.com/800/500/cats/1" alt="This is Cat 1" title="Cat 1">
-              <img src="http://lorempixel.com/400/200/cats/1" class="img-rounded" alt="This is what a cat looks like.">
-          </a>
+          <%= link_to(image_tag("gallery/gallery_1_sm_IMG_2451.png", :alt => "R&D still", :title => "R&D still", :class=>"img-rounded"),
+            image_path("gallery/gallery_1_lg_IMG_2451.png")) %>
         </div>
         <div class="col-md-4 gallery_img">
-          <a href="http://lorempixel.com/800/500/cats/2" alt="This is Cat 2" title="Cat 2">
-              <img src="http://lorempixel.com/400/200/cats/2" class="img-rounded" alt="This is what a cat looks like.">
-          </a>
+          <%= link_to(image_tag("gallery/gallery_2_sm_IMG_2458.png", :alt => "R&D still", :title => "R&D still", :class=>"img-rounded"),
+            image_path("gallery/gallery_2_lg_IMG_2458.png")) %>
         </div>
         <div class="col-md-4 gallery_img">
           <a href="http://lorempixel.com/800/500/cats/3" alt="This is Cat 3" title="Cat 3">
