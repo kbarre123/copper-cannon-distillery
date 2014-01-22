@@ -14,6 +14,11 @@
 // Move down content because we have a fixed navbar that is 50px tall
 body {
   padding-top: 50px;
+  h1 { color: white; }
+  h2 { color: white; }
+  h3 { color: white; }
+  h4 { color: white; }
+  p { color: white; }
 }
 
 // Override Rails' default error calls with Bootstrap 3
@@ -42,13 +47,23 @@ img {
   font-size: inherit;
 }
 
+.background_color {
+  background: #383838;
+}
+
 .header_img {
-  background: url(IMG_2718_home_banner.JPG) no-repeat center top;
+  background: url(IMG_2718_home_banner.JPG) no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height: 750px;
+  height: 300px;
+  padding: 0 15px;
+  border-radius: 0 0 5px 5px;
+}
+
+.main_text {
+  color: white;
 }
 
 // Gallery images
