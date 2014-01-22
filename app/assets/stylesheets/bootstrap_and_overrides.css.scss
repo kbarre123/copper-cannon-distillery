@@ -42,9 +42,13 @@ img {
   font-size: inherit;
 }
 
-// Background images
-#home_page {
-  background: 
+.header_img {
+  background: url(IMG_2718_home_banner.JPG) no-repeat center top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 750px;
 }
 
 // Gallery images
