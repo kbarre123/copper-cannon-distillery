@@ -14,11 +14,6 @@
 // Move down content because we have a fixed navbar that is 50px tall
 body {
   padding-top: 50px;
-  h1 { color: white; }
-  h2 { color: white; }
-  h3 { color: white; }
-  h4 { color: white; }
-  p { color: white; }
 }
 
 // Override Rails' default error calls with Bootstrap 3
@@ -57,14 +52,18 @@ img {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height: 300px;
-  padding: 0 15px;
+  height: 20em;
+  padding: 0 -10px;
   border-radius: 0 0 5px 5px;
 }
 
 #main_message {
-  font-size: 4em;
+  font-size: 3em;
   color: orange;
+}
+
+h1, h2, h3, h4, h5, h6, p { 
+  color: white; 
 }
 
 .emphasis {
