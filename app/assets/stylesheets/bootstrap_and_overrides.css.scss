@@ -52,7 +52,7 @@ img {
 }
 
 .header_img {
-  background: url(IMG_2718_home_banner.JPG) no-repeat center center;
+  background: url(IMG_2718_home_banner.png) no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -62,7 +62,17 @@ img {
   border-radius: 0 0 5px 5px;
 }
 
+#main_message {
+  font-size: 4em;
+  color: orange;
+}
+
+.emphasis {
+  color: orange;
+}
+
 .main_text {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
   color: white;
 }
 
