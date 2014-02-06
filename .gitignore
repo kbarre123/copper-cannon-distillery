@@ -18,5 +18,8 @@
 # Ignore application configuration
 /config/application.yml
 
+# Ignore NewReclic configuration
+/config/newrelic.yml
+
 # Ignore precompiled assets for Heroku
 /public/assets
