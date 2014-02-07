@@ -22,7 +22,7 @@
 /config/newrelic.yml
 
 # Ignore secret token
-/config/initializers/secret_token.rb
+#/config/initializers/secret_token.rb
 
 # Ignore precompiled assets for Heroku
 /public/assets
