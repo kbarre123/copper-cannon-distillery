@@ -25,4 +25,4 @@
 #/config/initializers/secret_token.rb
 
 # Ignore precompiled assets for Heroku
-/public/assets
+#/public/assets
