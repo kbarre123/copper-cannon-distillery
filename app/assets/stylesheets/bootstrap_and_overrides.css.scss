@@ -37,7 +37,8 @@ img {
 
 // Override for the 'Home' navigation link
 .navbar-brand {
-  font-size: inherit;
+  //font-size: inherit;
+  font-size: 2em;
 }
 
 .background_color {
@@ -85,4 +86,11 @@ h1, h2, h3, h4, h5, h6, p {
   width: 100%;
   margin-top: 45px;
   @include box_sizing;
+}
+
+/* Text well */
+#text_well {
+    background-color: #9b3b03;
+    padding: 10px;
+    border-radius: 5px;
 }
