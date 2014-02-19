@@ -40,4 +40,9 @@ Bootstrap::Application.configure do
   
   # Allow email deliveries during development
   config.action_mailer.perform_deliveries = true
+  
+  # Added 2/19/14 in an attempt to fix my pipeline problem
+  config.assets.compress = false # Doesn't gzip the assets
+  config.assets.compile = true # Enable runtime compilation of assets
+  config.serve_static_assets = false
 end

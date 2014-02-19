@@ -19,5 +19,8 @@ module Bootstrap
     # The default locale is :en and all translations from config/locales/*.rb,yml are auto loaded.
     # config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}').to_s]
     # config.i18n.default_locale = :de
+    
+    # Added 2/19/14 in an attempt to fix my asset-pipeline problem
+    config.assets.enabled = true
   end
 end
