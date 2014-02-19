@@ -13,11 +13,7 @@
 //= require jquery
 //= require jquery_ujs
 //= require bootstrap.min
-//= require blueimp-gallery-fullscreen
-//= require blueimp-gallery-indicator
-//= require blueimp-gallery.min
-//= require blueimp-helper
-//= require jquery.blueimp-gallery.min
+//= require blueimp-gallery-all
 //= require segmentio
 //= require turbolinks
 
