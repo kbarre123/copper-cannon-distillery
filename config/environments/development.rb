@@ -45,4 +45,10 @@ Bootstrap::Application.configure do
   config.assets.compress = false # Doesn't gzip the assets
   config.assets.compile = true # Enable runtime compilation of assets
   config.serve_static_assets = false
+  
+  # Allow page to be viewed in an iFrame on another domain (i.e. Chrome Dev Tools resize tool)
+  config.action_dispatch.default_headers = {
+    'X-Frame-Options' => 'ALLOWALL'
+  }
+  
 end
