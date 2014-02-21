@@ -1,6 +1,6 @@
 @import "bootstrap.min";
 @import "bootstrap-theme.min";
-@import "media-queries";
+@import "media-queries"; 
 
 /* mixins, variables, etc. */
 
@@ -38,24 +38,33 @@ img {
 
 // Override for the 'Home' navigation link
 .navbar-brand {
-  //font-size: inherit;
-  font-size: 2em;
+  font-size: 20px;
+  @include min-screen(980px) {
+    font-size: 2em;
+  }
+  @include min-screen(1024px) {
+    font-size: 2em;
+  }
 }
 
+// Background image on About page.
 #about_background_main {
-  background: asset-url('about/Blake_and_Chris.png') no-repeat center top;
+  background: asset-url('about/Blake_and_Chris.png') no-repeat center center;
   background-size: 100%;
   border-radius: 5px;
 }
 
+// Found on the About page for the text overlaying the background images.
 .about_text {
   padding: 1em;
 }
 
+// General background color for every page.
 .background_color {
   background: #383838;
 }
 
+// Header img.
 .header_img {
   background: asset_url('header/IMG_2718_home_banner.png') no-repeat center center;
   -webkit-background-size: cover;
