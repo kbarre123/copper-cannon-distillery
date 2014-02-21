@@ -41,6 +41,16 @@ img {
   font-size: 2em;
 }
 
+#about_background_main {
+  background: asset-url('about/Blake_and_Chris.png') no-repeat center top;
+  background-size: 100%;
+  border-radius: 5px;
+}
+
+.about_text {
+  padding: 1em;
+}
+
 .background_color {
   background: #383838;
 }
@@ -88,9 +98,3 @@ h1, h2, h3, h4, h5, h6, p {
   @include box_sizing;
 }
 
-/* Text well */
-#text_well {
-    background-color: #9b3b03;
-    padding: 10px;
-    border-radius: 5px;
-}
