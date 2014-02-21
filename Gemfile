@@ -8,6 +8,9 @@ gem 'rails', '4.0.1'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
 
+# 2/21/24 Added for media-queries with sass
+gem 'sass-mediaqueries-rails', '~> 1.3'
+
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 
