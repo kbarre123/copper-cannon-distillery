@@ -13,6 +13,8 @@
 // Move down content because we have a fixed navbar that is 50px tall
 body {
   padding-top: 50px;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  color: white;
 }
 
 // Override Rails' default error calls with Bootstrap 3
@@ -30,6 +32,7 @@ body {
        asset-url('glyphicons-halflings-regular.svg#glyphicons_halflingsregular')format('svg');
 }
 
+/* NAVBAR BULLSHIT */
 // Make all images responsive by default
 img {
   @extend .img-responsive;
@@ -37,31 +40,41 @@ img {
 }
 
 // Override for the 'Home' navigation link
-.navbar-brand {
-  font-size: 20px;
-  @include min-screen(980px) {
-    font-size: 2em;
-  }
-  @include min-screen(1024px) {
-    font-size: 2em;
+@media (max-width: 600px) {
+  .navbar-brand {
+    font-size: 1.25em;
   }
 }
-
-// Background image on About page.
-#about_background_main {
-  background: asset-url('about/Blake_and_Chris.png') no-repeat center center;
-  background-size: 100%;
-  border-radius: 5px;
+@media (min-width: 769px) and (max-width: 990px) {
+  .navbar-brand {
+    font-size: 1.5em;
+  }
 }
 
-// Found on the About page for the text overlaying the background images.
-.about_text {
-  padding: 1em;
+@media (min-width: 991px) {
+  .navbar-brand {
+    font-size: 1.75em;
+  }
 }
 
+// Define new breakpoint for navbar collapse
+@media (min-width: 769px) and (max-width: 995px) {
+  .collapse {
+    display: none !important;
+  }
+  .navbar-collapse {
+    display: none !important;
+  }
+}
+
+/* GENERAL STUFF */
 // General background color for every page.
 .background_color {
   background: #383838;
+}
+
+.content_top_margin {
+  padding-top: 2em;
 }
 
 // Header img.
@@ -76,21 +89,12 @@ img {
   border-radius: 0 0 5px 5px;
 }
 
-#main_message {
-  color: orange;
-}
-
-h1, h2, h3, h4, h5, h6, p { 
-  color: white; 
-}
+//h1, h2, h3, h4, h5, h6, p { 
+//  color: white; 
+//}
 
 .emphasis {
   color: orange;
-}
-
-.main_text {
-  font-family: Verdana, Arial, Helvetica, sans-serif;
-  color: white;
 }
 
 // Gallery images
@@ -98,7 +102,31 @@ h1, h2, h3, h4, h5, h6, p {
   margin-bottom: 30px;
 }
 
-/* miscellaneous */
+/* ABOUT PAGE */
+// Background image on About page.
+#about_background_main {
+  background: asset-url('about/Blake_and_Chris.png') no-repeat center center;
+  background-size: 100%;
+  border-radius: 5px;
+  padding: 2vw;
+}
+
+// text overlaying the background images.
+.about_text_main {
+  font-size: 2vw;
+  font-weight: bold;
+  padding: 1vw, 1vw, 0.5vw, 1vw;
+  //color: #cc2424;
+}
+
+.about_text_signature {
+  padding: 2vw, 1vw, 1vw, 1vw;
+  margin-top: 2vw;
+  font-size: 1.5vw;
+  font-weight: bold;
+}
+
+/* MISCELLANEOUS */
 
 .debug_dump {
   clear: both;
