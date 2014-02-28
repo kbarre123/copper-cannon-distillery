@@ -32,36 +32,29 @@ body {
        asset-url('glyphicons-halflings-regular.svg#glyphicons_halflingsregular')format('svg');
 }
 
-/* NAVBAR BULLSHIT */
 // Make all images responsive by default
 img {
   @extend .img-responsive;
   margin: 0 auto;
 }
 
+/* NAVBAR BULLSHIT */
 // Override for the 'Home' navigation link
 @media (max-width: 600px) {
   .navbar-brand {
     font-size: 1.25em;
   }
 }
-@media (min-width: 769px) and (max-width: 990px) {
+@media (min-width: 769px) and (max-width: 1000px) {
   .navbar-brand {
     font-size: 1.5em;
   }
 }
 
-@media (min-width: 991px) {
+@media (min-width: 1000px) {
   .navbar-brand {
     font-size: 1.75em;
   }
-}
-
-// Define new breakpoint for navbar collapse
-@media (min-width: 768px) and (max-width: 1000px) {
-   .collapse {
-       display: none !important;
-   }
 }
 
 /* GENERAL STUFF */
