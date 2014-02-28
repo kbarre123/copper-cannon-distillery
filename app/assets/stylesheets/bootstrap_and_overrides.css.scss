@@ -67,20 +67,35 @@ img {
   padding-top: 2em;
 }
 
-// Header img.
-.header_img {
-  background: asset_url('header/IMG_2718_home_banner.png') no-repeat center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  height: 20em;
-  padding: 0 -10px;
-  border-radius: 0 0 5px 5px;
-}
-
 .emphasis {
   color: orange;
+}
+
+/* HOME PAGE */
+
+// Header img.
+@media (max-width: 600px) {
+  .header_img {
+  background: asset_url('header/home_banner.png') no-repeat center center;
+  background-size: cover;
+  height: 15vh;
+  border-radius: 0 0 5px 5px;
+  }
+  h1 {
+    font-size: 6vw;
+  }
+  h2 {
+    font-size: 5vw;
+  }
+}
+
+@media (min-width: 601px) {
+  .header_img {
+  background: asset_url('header/home_banner.png') no-repeat center center;
+  background-size: cover;
+  height: 25vh;
+  border-radius: 0 0 5px 5px;
+  }
 }
 
 // Gallery images
