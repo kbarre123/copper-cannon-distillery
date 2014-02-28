@@ -38,8 +38,7 @@ img {
   margin: 0 auto;
 }
 
-/* NAVBAR BULLSHIT */
-// Override for the 'Home' navigation link
+/* MEDIA QUERIES */
 @media (max-width: 600px) {
   .navbar-brand {
     font-size: 1.25em;
@@ -56,6 +55,10 @@ img {
   h2 {
     font-size: 5vw;
   }
+  .about_text {
+    font-size: 3.5vw;
+    padding: 1vw, 1vw, 0.5vw, 1vw;
+  }
 }
 @media (min-width: 600px) and (max-width: 1000px) {
   .navbar-brand {
@@ -66,6 +69,10 @@ img {
   background-size: cover;
   height: 25vh;
   border-radius: 0 0 5px 5px;
+  }
+  .about_text {
+    font-size: 2vh;
+    padding: 1vw, 1vw, 0.5vw, 1vw;
   }
 }
 
@@ -78,6 +85,10 @@ img {
     background-size: cover;
     height: 35vh;
     border-radius: 0 0 5px 5px;
+  }
+  .about_text {
+    font-size: 1.50em;
+    padding: 1vw, 1vw, 0.5vw, 1vw;
   }
 }
 
@@ -105,24 +116,10 @@ img {
 // Background image on About page.
 #about_background_main {
   background: asset-url('about/Blake_and_Chris.png') no-repeat center center;
-  background-size: 100%;
+  background-size: cover;
+  height: 35vh;
   border-radius: 5px;
   padding: 2vw;
-}
-
-// text overlaying the background images.
-.about_text_main {
-  font-size: 2vw;
-  font-weight: bold;
-  padding: 1vw, 1vw, 0.5vw, 1vw;
-  //color: #cc2424;
-}
-
-.about_text_signature {
-  padding: 2vw, 1vw, 1vw, 1vw;
-  margin-top: 2vw;
-  font-size: 1.5vw;
-  font-weight: bold;
 }
 
 /* MISCELLANEOUS */
