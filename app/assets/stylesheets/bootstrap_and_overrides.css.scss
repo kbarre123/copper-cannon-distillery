@@ -46,7 +46,7 @@ img {
   .header_img {
   background: asset_url('header/home_banner.png') no-repeat center center;
   background-size: cover;
-  height: 15vh;
+  height: 150px;
   border-radius: 0 0 5px 5px;
   }
   h1 {
@@ -56,10 +56,18 @@ img {
     font-size: 5vw;
   }
   .about_text {
-    font-size: 3.5vw;
-    padding: 1vw, 1vw, 0.5vw, 1vw;
+    font-size: 1em;
+    padding: 5px, 5px;
+  }
+  #about_background_main {
+    background: asset-url('about/Blake_and_Chris.png') no-repeat center center;
+    background-size: cover;
+    height: 270px;
+    border-radius: 5px;
+    padding: 5px;
   }
 }
+
 @media (min-width: 600px) and (max-width: 1000px) {
   .navbar-brand {
     font-size: 1.5em;
@@ -67,12 +75,19 @@ img {
   .header_img {
   background: asset_url('header/home_banner.png') no-repeat center center;
   background-size: cover;
-  height: 25vh;
+  height: 225px;
   border-radius: 0 0 5px 5px;
   }
   .about_text {
-    font-size: 2vh;
-    padding: 1vw, 1vw, 0.5vw, 1vw;
+    font-size: 1.15em;
+    padding: 5px, 5px;
+  }
+  #about_background_main {
+    background: asset-url('about/Blake_and_Chris.png') no-repeat center center;
+    background-size: cover;
+    height: 250px;
+    border-radius: 5px;
+    padding: 5px;
   }
 }
 
@@ -83,12 +98,19 @@ img {
   .header_img {
     background: asset_url('header/home_banner.png') no-repeat center center;
     background-size: cover;
-    height: 35vh;
+    height: 300px;
     border-radius: 0 0 5px 5px;
   }
   .about_text {
-    font-size: 1.50em;
-    padding: 1vw, 1vw, 0.5vw, 1vw;
+    font-size: 1.60em;
+    padding: 5px, 5px;
+  }
+  #about_background_main {
+    background: asset-url('about/Blake_and_Chris.png') no-repeat center center;
+    background-size: cover;
+    height: 250px;
+    border-radius: 5px;
+    padding: 5px;
   }
 }
 
@@ -113,14 +135,14 @@ img {
 }
 
 /* ABOUT PAGE */
-// Background image on About page.
+/* Background image on About page.
 #about_background_main {
   background: asset-url('about/Blake_and_Chris.png') no-repeat center center;
   background-size: cover;
-  height: 35vh;
+  height: 250px;
   border-radius: 5px;
-  padding: 2vw;
-}
+  padding: 5px;
+}*/
 
 /* MISCELLANEOUS */
 
