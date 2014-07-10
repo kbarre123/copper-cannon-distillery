@@ -68,3 +68,6 @@ end
 
 # Added on 2/19/14 to try to fix the gallery not working right
 gem "blueimp-gallery", "~> 2.11.0.1"
+
+# New Relic monitoring
+gem 'newrelic_rpm'
